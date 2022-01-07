@@ -22,6 +22,7 @@ The silhouette coefficient and the adjusted rand index (ARI) were used to measur
 The silhouette coefficient and the adjusted rand index (ARI) were used to measure the similarity between true and predicted classes using known true classes.
  
 Conclusion
+
 K-means and DBSCAN algorithms were used to separate analyzed cancer cell lines into clusters based on gene expression signature. The k-means algorithm showed a 
 better performance (silhouette_score=0.512, adjusted_rand_index=0.722) in comparison with the DBSCAN algorithm (silhouette_score=0.379, adjusted_rand_index=0.523).
 It proves that cancer cell lines can be separated based on the gene signature expression.
